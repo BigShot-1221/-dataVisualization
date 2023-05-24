@@ -1,0 +1,148 @@
+@font-face {
+  font-family: YouSheBiaoTiHei;
+  src: url("font/YouSheBiaoTiHei-2.ttf");
+
+}
+@font-face {
+  font-family: Digital-7Mono;
+  src: url("font/Digital-7Mono.ttf");
+}
+
+.Fu{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.head{
+  /*position: fixed;*/
+  top: 0;
+  left: 0;
+  height: 60px;
+  width: 100%;
+  background-image: url("../images/portrait/bt.png");
+  background-size: 100% 100%;
+  display: flex;
+  color: aliceblue;
+}
+.head_zi1{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.head_xzk{
+  position: absolute;
+  top: 55px;
+  left: 15px;
+  color: #06adf1;
+  font-size: 12px;
+}
+.n{
+  position: absolute;
+  top: 90px;
+  left: 550px;
+  color: #06adf1;
+  font-size: 12px;
+  display:  flex;
+  justify-content: space-around;
+  width: 400px;
+}
+.n_n{
+  text-align: center;
+  width: 80px;
+  height: 20px;
+  background-image: url("../images/portrait/bk5.png");
+  background-size: 100% 100%;
+}
+.head_xzk select{
+  width: 60px;
+  background-color: #091733;
+  border: 1px solid #06adf1;
+  color: #06adf1;
+}
+.head_zi1{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.head_zi1 .sfm{
+  font-family: "Digital-7Mono",fantasy;
+  font-size: 25px;
+
+}
+.head_zi1 .nyr{
+  font-size: 10px;
+}
+.head_zi2{
+  margin: auto;
+  font-family: "YouSheBiaoTiHei",fantasy;
+  font-size: 34px;
+}
+.content{
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 20px;
+  width: calc(100% - 30px);
+  height: 95%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.content_1{
+  z-index: 2;
+  background-image: url("../images/portrait/bk1.png");
+  background-size: 100% 100%;
+  width: 25%;
+  height: 91%;
+  padding: 15px;
+}
+
+.content_1_1{
+  width: 100%;
+  height: 88%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content_2{
+  z-index: 2;
+  background-image: url("../images/portrait/bk2.png");
+  background-size: 100% 100%;
+  padding-left: 1%;
+  padding-right: 1%;
+
+}
+
+.content_3_one{
+  position: fixed;
+  background-size: 100% 100%;
+  top: 12%;
+  left: 1%;
+  width: 23%;
+  height: 86%;
+}
+
+.content_3_1{
+  margin-bottom: 3%;
+  padding: 2%;
+}
+.content_3_two{
+  position: fixed;
+  top: 12%;
+  left: 75.5%;
+  background-size: 100% 100%;
+  width: 23%;
+  height: 86%;
+}
+.content_3_1{
+  height: 30%;
+  width: 100%;
+  background-image: url("../images/portrait/bk3.png");
+  background-size: 100% 100%;
+}
